@@ -1,0 +1,300 @@
+body {
+  background: #f5e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.circle {
+  background: transparent;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #deb02d;
+  position: absolute;
+  z-index: 25;
+}
+
+#circle0 {
+  background: transparent;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #deb02d;
+  position: absolute;
+  z-index: 20;
+}
+
+#circle1 {
+  width: 250px;
+  height: 250px;
+  left: 115px;
+  top: 115px;
+  background-color: #b5bd18;
+}
+
+#circle2 {
+  border: 10px solid #ffffff;
+  top: 0px;
+  width: 230px;
+  height: 230px;
+  z-index: 21;
+  left: 0px;
+}
+
+#circle-inner-container {
+  position: absolute;
+  top: 130px;
+}
+.flower-of-life {
+  margin: 50px auto 0;
+  font-size: 100px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  background-color: #0c0b25;
+}
+
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background: #b70606;
+  position: absolute;
+  top: 75px;
+  left: 75px;
+}
+
+.rect1 {
+  transform: rotate(10deg);
+}
+
+.rect2 {
+  transform: rotate(20deg);
+}
+
+.rect3 {
+  transform: rotate(30deg);
+}
+
+.rect4 {
+  transform: rotate(40deg);
+}
+
+.rect5 {
+  transform: rotate(50deg);
+}
+
+.rect6 {
+  transform: rotate(60deg);
+}
+
+.rect7 {
+  transform: rotate(70deg);
+}
+
+.rect8 {
+  transform: rotate(80deg);
+}
+
+.rect9 {
+  transform: rotate(90deg);
+}
+
+.rect-circle1 {
+  background: #e04e16;
+  width: 449px;
+  height: 449px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #e04e16;
+  position: absolute;
+  z-index: 20;
+  top: 23px;
+  left: 23px;
+}
+
+.rectangle1 {
+  width: 318px;
+  height: 318px;
+  background: #bba506;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  z-index: 21;
+}
+
+.rect11 {
+  transform: rotate(0deg);
+}
+
+.rect12 {
+  transform: rotate(10deg);
+}
+
+.rect13 {
+  transform: rotate(20deg);
+}
+
+.rect14 {
+  transform: rotate(30deg);
+}
+
+.rect15 {
+  transform: rotate(40deg);
+}
+
+.rect16 {
+  transform: rotate(50deg);
+}
+
+.rect17 {
+  transform: rotate(60deg);
+}
+
+.rect18 {
+  transform: rotate(70deg);
+}
+
+.rect19 {
+  transform: rotate(80deg);
+}
+
+.rect-circle2 {
+  background: #c3cc48;
+  width: 388px;
+  height: 388px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #c3cc48;
+  position: absolute;
+  z-index: 22;
+  top: 53px;
+  left: 53px;
+}
+
+.rectangle2 {
+  width: 275px;
+  height: 275px;
+  background: rgba(255, 255, 255, 0.414);
+  position: absolute;
+  top: 111px;
+  left: 111px;
+  z-index: 23;
+}
+
+.rect21 {
+  transform: rotate(0deg);
+}
+
+.rect22 {
+  transform: rotate(10deg);
+}
+
+.rect23 {
+  transform: rotate(20deg);
+}
+
+.rect24 {
+  transform: rotate(30deg);
+}
+
+.rect25 {
+  transform: rotate(40deg);
+}
+
+.rect26 {
+  transform: rotate(50deg);
+}
+
+.rect27 {
+  transform: rotate(60deg);
+}
+
+.rect28 {
+  transform: rotate(70deg);
+}
+
+.rect29 {
+  transform: rotate(80deg);
+}
+
+.rect-circle3 {
+  background: #c3cc48;
+  width: 328px;
+  height: 328px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #c3cc48;
+  position: absolute;
+  z-index: 24;
+  top: 83px;
+  left: 83px;
+}
+
+.rectangle3 {
+  width: 233px;
+  height: 233px;
+  background: #e04e16;
+  position: absolute;
+  top: 133px;
+  left: 133px;
+  z-index: 25;
+}
+
+.rect31 {
+  transform: rotate(0deg);
+}
+
+.rect32 {
+  transform: rotate(10deg);
+}
+
+.rect33 {
+  transform: rotate(20deg);
+}
+
+.rect34 {
+  transform: rotate(30deg);
+}
+
+.rect35 {
+  transform: rotate(40deg);
+}
+
+.rect36 {
+  transform: rotate(50deg);
+}
+
+.rect37 {
+  transform: rotate(60deg);
+}
+
+.rect38 {
+  transform: rotate(70deg);
+}
+
+.rect39 {
+  transform: rotate(80deg);
+}
+
+.rect-circle4 {
+  background: #b70606;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #b70606;
+  position: absolute;
+  z-index: 25;
+  top: 108px;
+  left: 108px;
+}
